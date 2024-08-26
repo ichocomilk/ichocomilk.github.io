@@ -33,7 +33,18 @@ body, html {
     object-fit: cover;
     object-position: center;
 }
-
+.github {
+    width: 260px;
+    height: 100px;
+}
+.youtube {
+    width: 100px;
+    height: 100px;
+}
+#discord{
+    width: 100px;
+    height: 100px;
+}
 .bottom-section {
     flex: 1;
     background-color: #493427;

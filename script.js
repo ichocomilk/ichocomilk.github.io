@@ -9,10 +9,29 @@ document.addEventListener('DOMContentLoaded', () => {
     ));
 
     cardContainer.appendChild(createCard(
+        "Go Server",
+        "assets/goserver.png",
+        "1.8 minecraft server made in go",
+        "https://github.com/MineLC/Go-Server"
+    ));
+    cardContainer.appendChild(createCard(
+        "Go Server API",
+        "assets/goserverapi.png",
+        "Api for plugins in go server",
+        "https://github.com/MineLC/Go-Server-Api"
+    ));
+    cardContainer.appendChild(createCard(
        "Mobstacker",
        "assets/mobstacker.png",
        "Stack your mobs in one 😎",
        "https://www.spigotmc.org/resources/mobstacker.106631/"
+    ));
+
+    cardContainer.appendChild(createCard(
+        "Minimal World Format",
+        "assets/minimalworld.png",
+        "1.8 world format for minecraft",
+        "https://github.com/ichocomilk/MinimalWorld"
     ));
 });
 
@@ -32,3 +51,7 @@ function createCard(name, image, description, href) {
 
     return card;
 }
+
+document.getElementById('discord').addEventListener('click', function (e) {
+    alert("My discord is: ichocomilk")
+})
