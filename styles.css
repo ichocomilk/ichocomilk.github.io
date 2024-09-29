@@ -6,10 +6,15 @@
     --header-max-height: 400px;
 }
 
+@font-face {
+    font-family: Minecraft;
+    src: url('fonts/Minecraft.ttf');
+} 
+
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Minecraft, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -93,12 +98,14 @@ body, html {
 .card-title {
     color: white;
     font-size: calc(1rem + 1vw);
+    font-weight: lighter;
     margin-bottom: 0.5rem;
 }
 
 .card-text {
-    color: #8b7777;
+    color: #ab9999;
     margin: 0.25rem 0;
+    font-weight: 100;
     font-size: calc(0.8rem + 0.5vw);
 }
 
