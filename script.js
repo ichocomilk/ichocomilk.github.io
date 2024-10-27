@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+﻿document.addEventListener('DOMContentLoaded', () => {
     const cardContainer = document.getElementById('cardContainer');
 
     cardContainer.appendChild(createCard(
@@ -7,7 +7,12 @@ document.addEventListener('DOMContentLoaded', () => {
        "Create custom potions that make you invulnerable to taking damage for a period of time.",
        "https://polymart.org/resource/immunitypotions.6415"
     ));
-
+    cardContainer.appendChild(createCard(
+        "Milk Mines",
+        "assets/milkmines.png",
+        "Optimized and basic mines plugin",
+        "https://github.com/ichocomilk/MilkMines"
+    ));
     cardContainer.appendChild(createCard(
         "Go Server",
         "assets/goserver.png",
@@ -26,13 +31,13 @@ document.addEventListener('DOMContentLoaded', () => {
        "Stack your mobs in one 😎",
        "https://www.spigotmc.org/resources/mobstacker.106631/"
     ));
-
     cardContainer.appendChild(createCard(
         "Minimal World Format",
         "assets/minimalworld.png",
         "1.8 world format for minecraft",
         "https://github.com/ichocomilk/MinimalWorld"
     ));
+
 });
 
 function createCard(name, image, description, href) {
